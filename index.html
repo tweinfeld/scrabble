@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebWise: Javascript for your modern life!</title>
+    <meta name="description" content="WebWise builds things with Javascript! We do browser, mobile and NodeJS.">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/scrabble.css"/>
+    <script type="text/javascript" data-main="js/base" src="js/libs/require/require.js"></script>
+</head>
+<body>
+    <div class="top-stripe"></div>
+    <div class="view-port">
+        <header>
+            <div class="slogan" title="Javascript for your modern life"></div>
+            <div class="logo" title="webwise"></div>
+            <div class="hire-us" title="Hire Us Now"></div>
+        </header>
+        <div class="scrabble"></div>
+    </div>
+    <footer>
+        <a href="http://www.twitter.com/tweinfeld/" target="_blank"><i class="icon twitter"></i><span>twitter.com/tweinfeld</span></a>
+        <a href="http://www.github.com/tweinfeld/" target="_blank"><i class="icon github"></i><span>github.com/tweinfeld</span></a>
+        <a href="mailto:talw@webwise.co.il" id="email_link"><i class="icon mail"></i><span>talw@webwise.co.il</span></a>
+    </footer>
+    <article class="introduction">
+        <p>Hi!</p>
+        <p>My name is Tal, I am a freelance
+        web developer and graphic designer with vast
+        experience in various server and client
+        technologies.</p>
+        <p>My business is based in Tel-Aviv, Israel.
+        It’s called “WebWise”, and it’s been around for
+        <a href="http://web.archive.org/web/20020108164341/http://www.webwise.co.il/" target="_blank" title="Internet archive snapshot of WebWise corporate site from back in 2002">quite some time now.</a></p>
+        <p>During the last several years I have been adopting Javascript as my "secret ingredient" for both Browser and NodeJS projects.</p>
+        <p><a id="start" href="javascript:void(0);">Click here</a> to try and find out which technologies I master..</p>
+    </article>
+    <div class="masker">
+        <div class="contact-card"></div>
+    </div>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-1155730-1']);
+        _gaq.push(['_setDomainName', 'webwise.co.il']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</body>
+</html>
